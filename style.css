@@ -1,0 +1,124 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+
+#container {
+    min-height: 100%; 
+}
+
+#main-content-heading {
+    overflow: visible;
+    padding-bottom: 50%;
+}
+
+#header {
+  background: #b2223f;
+  color: white;
+  text-align: left;
+  font-size: 35px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+}
+
+#navbar ul {
+  background-color: #b2223f;
+  padding: 10px;
+  font-size: 19px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: right;
+}
+
+#navbar li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 25px;
+}
+
+/*----------Body section below--------------*/
+
+#content-wrapper {
+  object-fit: contain;
+  width: 100%;
+  min-height: 100%;
+}
+
+h1 {
+  color: #b2223f;
+  text-align: center;
+  font-size: 30px;
+}
+
+.text-wrapper {
+  position: relative;
+  margin-top: -60%;
+}
+
+#about-us {
+    object-fit: contain;
+    width: auto;
+    background-color: crimson;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#about-us p {
+    text-align: left;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+#blog {
+    object-fit: contain;
+    width: auto;
+    background-color: crimson;
+    padding: 20px;
+    margin-top: 20px;
+}
+/*------Footer goes here-----*/
+
+#footer {
+  width: auto;
+  background-color: #b2223f;
+  padding: 10px;
+  text-align: right;
+  position: relative;
+  bottom: 0;
+  clear: both;
+}
+
+#footer ul {
+  padding: 15px;
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+#footer li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+  margin: 25px;
+}
